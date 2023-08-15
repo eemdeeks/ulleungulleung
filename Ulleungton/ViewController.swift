@@ -23,7 +23,7 @@ final class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		setupMotionManager()
-		setupImageView()
+		setupUI()
 	}
 	
     private func setupMotionManager() {
@@ -39,12 +39,14 @@ final class ViewController: UIViewController {
         }
     }
 	
-	private func setupImageView() {
-		objectImageView.image = UIImage(named: "object")
-		lineView.image = UIImage(named: "line")
+	private func setupUI() {
+        view.backgroundColor = .init(red: 218 / 255, green: 255 / 255, blue: 142 / 255, alpha: 1)
         
+		objectImageView.image = UIImage(named: "object")
         objectImageView.contentMode = .scaleAspectFill
         objectImageView.layer.anchorPoint = .init(x: 0.5, y: 1)
+        
+		lineView.image = UIImage(named: "line")
 		lineView.center.x = objectImageView.center.x
 	}
 	
