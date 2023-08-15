@@ -23,6 +23,10 @@
                                     <constraint firstAttribute="height" constant="115" id="yf2-WQ-Yht"/>
                                 </constraints>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iUD-mh-GXc">
+                                <rect key="frame" x="-204" y="504" width="801" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -32,12 +36,13 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="lineView" destination="iUD-mh-GXc" id="TeQ-UY-bIV"/>
                         <outlet property="objectImageView" destination="yMO-b7-Hry" id="mIq-yA-di7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="63" y="4"/>
+            <point key="canvasLocation" x="61.832061068702288" y="3.5211267605633805"/>
         </scene>
     </scenes>
     <resources>
