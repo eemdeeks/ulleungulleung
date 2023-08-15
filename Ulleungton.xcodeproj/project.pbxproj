@@ -13,6 +13,7 @@
 		3AA9895D2A8B17EA00BFFB64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AA9895B2A8B17EA00BFFB64 /* Main.storyboard */; };
 		3AA9895F2A8B17EB00BFFB64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AA9895E2A8B17EB00BFFB64 /* Assets.xcassets */; };
 		3AA989622A8B17EB00BFFB64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AA989602A8B17EB00BFFB64 /* LaunchScreen.storyboard */; };
+		3AA9896A2A8B2BFD00BFFB64 /* FloatingValueSmoother.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA989692A8B2BFD00BFFB64 /* FloatingValueSmoother.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3AA9895E2A8B17EB00BFFB64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AA989612A8B17EB00BFFB64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AA989632A8B17EB00BFFB64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AA989692A8B2BFD00BFFB64 /* FloatingValueSmoother.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingValueSmoother.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				3AA989552A8B17EA00BFFB64 /* AppDelegate.swift */,
 				3AA989572A8B17EA00BFFB64 /* SceneDelegate.swift */,
 				3AA989592A8B17EA00BFFB64 /* ViewController.swift */,
+				3AA989692A8B2BFD00BFFB64 /* FloatingValueSmoother.swift */,
 				3AA9895B2A8B17EA00BFFB64 /* Main.storyboard */,
 				3AA9895E2A8B17EB00BFFB64 /* Assets.xcassets */,
 				3AA989602A8B17EB00BFFB64 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AA9896A2A8B2BFD00BFFB64 /* FloatingValueSmoother.swift in Sources */,
 				3AA9895A2A8B17EA00BFFB64 /* ViewController.swift in Sources */,
 				3AA989562A8B17EA00BFFB64 /* AppDelegate.swift in Sources */,
 				3AA989582A8B17EA00BFFB64 /* SceneDelegate.swift in Sources */,
@@ -288,7 +292,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3FD7AHY7SL;
+				DEVELOPMENT_TEAM = 3BWEDXDT2H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Ulleungton/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -318,7 +322,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3FD7AHY7SL;
+				DEVELOPMENT_TEAM = 3BWEDXDT2H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Ulleungton/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
