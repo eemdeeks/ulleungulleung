@@ -43,8 +43,8 @@ final class ViewController: UIViewController {
 		objectImageView.image = UIImage(named: "object")
 		lineView.image = UIImage(named: "line")
         
+        objectImageView.contentMode = .scaleAspectFill
         objectImageView.layer.anchorPoint = .init(x: 0.5, y: 1)
-		lineView.frame.origin.y = objectImageView.frame.maxY - 60
 		lineView.center.x = objectImageView.center.x
 	}
 	
